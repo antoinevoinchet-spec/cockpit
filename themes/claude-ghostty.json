@@ -1,0 +1,29 @@
+{
+  "name": "Claude · Ghostty",
+  "base": "dark",
+  "overrides": {
+    "claude": "#e8805f",
+    "text": "#f5f3ec",
+    "inactive": "#94918a",
+    "subtle": "#55524b",
+    "suggestion": "#8cc2ff",
+    "permission": "#8cc2ff",
+    "remember": "#e58fd0",
+    "success": "#9ed46a",
+    "error": "#ff6b5b",
+    "warning": "#ffc95c",
+    "promptBorder": "#55524b",
+    "planMode": "#4fd6c4",
+    "bashBorder": "#e58fd0",
+    "diffAdded": "#25381c",
+    "diffRemoved": "#47211c",
+    "diffAddedWord": "#3d5c2b",
+    "diffRemovedWord": "#6e2d25",
+    "selectionBg": "#5a3a2c",
+    "composerSidebarBackground": "#181715",
+    "rate_limit_fill": "#e8805f",
+    "rate_limit_empty": "#3a3833",
+    "briefLabelYou": "#e8805f",
+    "briefLabelClaude": "#e8805f"
+  }
+}

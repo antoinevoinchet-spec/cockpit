@@ -1,0 +1,27 @@
+{
+  "name": "cockpit",
+  "version": "0.2.0",
+  "description": "Dashboard pane with live activity, usage meters, git and dev servers; plan band; clearer spinner and tool rows; chat-like transcript; alerts with one sound per kind; a matching color theme",
+  "license": "UNLICENSED",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "notesDir": {
+      "type": "string",
+      "title": "Notes folder",
+      "description": "Folder where the Learn tab appends the ★ Insight points as one Markdown note (for example the root of an Obsidian vault). Leave empty to keep them in the Learn tab only.",
+      "default": ""
+    },
+    "notesName": {
+      "type": "string",
+      "title": "Note name",
+      "description": "File name, without .md, of the note written in the notes folder.",
+      "default": "Claude Code learnings"
+    },
+    "obsidianVault": {
+      "type": "string",
+      "title": "Obsidian vault name",
+      "description": "Name of the Obsidian vault that holds the notes folder. Set it to show an Obsidian button that opens the note; leave empty otherwise.",
+      "default": ""
+    }
+  }
+}

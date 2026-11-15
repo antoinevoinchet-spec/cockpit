@@ -1,0 +1,7 @@
+# Written by Claude Code each time it loads the mod: the API's types, for the editor.
+.claude-plugin/types/
+# Never commit secrets.
+.env*
+.DS_Store
+node_modules/
+__pycache__/
