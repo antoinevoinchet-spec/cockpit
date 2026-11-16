@@ -30,7 +30,7 @@ The pane's interface is in English. Some comments, test data and the original de
 
 ## How it was built
 
-I designed Cockpit and steered the work. I do not write code myself: every line was written by Claude Code under my direction.
+I designed Cockpit and steered the work. I do not write code myself: every line was written by Claude Code under my direction. This public repository is a clean copy of my private working repository, so its history starts with a single commit.
 
 My part was the specification and the decisions: what a supervisor needs to see, which signals can be trusted, and which must be labelled as only indicative. For example, a tick means "exit code 0", never "correct", and the sensitive-action markers are visual cues, not a protection.
 
